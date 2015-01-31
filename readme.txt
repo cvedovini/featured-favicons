@@ -1,0 +1,31 @@
+=== WP LinkedIn ===
+Author: Claude Vedovini
+Contributors: cvedovini
+Donate link: http://vedovini.net/plugins/?utm_source=wordpress&utm_medium=plugin&utm_campaign=featured-favicons
+Tags: featured image,favicon,icon
+Requires at least: 2.7
+Tested up to: 4.1
+Stable tag: trunk
+License: GPLv3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+
+== Description ==
+
+A plugin that uses the featured images in your posts and pages as favicon for
+that post or page.
+
+
+== Installation ==
+
+This plugin follows the [standard WordPress installation
+method](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins):
+
+1. Upload the `featured-favicons` folder to the `/wp-content/plugins/` directory
+1. Activate the plugin through the 'Plugins' menu in WordPress
+
+
+== Changelog ==
+
+= Version 1.0 =
+- Initial release.
