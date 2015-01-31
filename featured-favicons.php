@@ -2,7 +2,8 @@
 /*
 Plugin Name: Featured Favicons
 Plugin URI: http://vedovini.net/plugins/?utm_source=wordpress&utm_medium=plugin&utm_campaign=featured-favicons
-Description: A plugin that uses the featured image in your posts as a favicon.
+Description: A plugin that uses the featured image in your posts as a favicon for
+that post.
 Author: Claude Vedovini
 Author URI: http://vedovini.net/?utm_source=wordpress&utm_medium=plugin&utm_campaign=featured-favicons
 Version: 1.0
