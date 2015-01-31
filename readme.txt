@@ -1,11 +1,11 @@
-=== WP LinkedIn ===
+=== Featured Favicons ===
 Author: Claude Vedovini
 Contributors: cvedovini
 Donate link: http://vedovini.net/plugins/?utm_source=wordpress&utm_medium=plugin&utm_campaign=featured-favicons
 Tags: featured image,favicon,icon
 Requires at least: 2.7
 Tested up to: 4.1
-Stable tag: 1.0
+Stable tag: trunk
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
