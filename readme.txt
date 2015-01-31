@@ -1,4 +1,4 @@
-=== WP LinkedIn ===
+=== Featured Favicons ===
 Author: Claude Vedovini
 Contributors: cvedovini
 Donate link: http://vedovini.net/plugins/?utm_source=wordpress&utm_medium=plugin&utm_campaign=featured-favicons
@@ -12,7 +12,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-A plugin that uses the featured images in your posts as favicon for
+A plugin that uses the featured image in your posts as a favicon for
 that post. You can also set a default favicon and use it as a default featured
 image.
 
