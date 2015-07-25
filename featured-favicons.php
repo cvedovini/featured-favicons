@@ -27,7 +27,7 @@ Text Domain: featured-favicons
 
 function ff_load() {
 	add_action('init', 'ff_init');
-	add_action('admin_menu', 'ff_admin_init');
+	add_action('admin_init', 'ff_admin_init');
 
 	// Make plugin available for translation
 	// Translations can be filed in the /languages/ directory
