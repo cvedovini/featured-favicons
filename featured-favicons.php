@@ -27,7 +27,7 @@ Text Domain: featured-favicons
 
 function ff_load() {
 	add_action('init', 'ff_init');
-	add_action('admin_init', 'ff_admin_init');
+	add_action('admin_menu', 'ff_admin_menu');
 
 	// Make plugin available for translation
 	// Translations can be filed in the /languages/ directory
@@ -114,7 +114,7 @@ function ff_get_post_metadata($null, $object_id, $meta_key, $single) {
 }
 
 
-function ff_admin_init() {
+function ff_admin_menu() {
 	add_filter('plugin_action_links_featured-favicons/featured-favicons.php', 'ff_add_settings_link');
 	add_options_page(__('Favicons', 'featured-favicons'), __('Favicons', 'featured-favicons'),
 			'manage_options', 'featured-favicons', 'ff_options_page');
