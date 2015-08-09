@@ -5,7 +5,7 @@ Plugin URI: http://vedovini.net/plugins/?utm_source=wordpress&utm_medium=plugin&
 Description: A plugin that uses the featured image in your posts as a favicon for that post.
 Author: Claude Vedovini
 Author URI: http://vedovini.net/?utm_source=wordpress&utm_medium=plugin&utm_campaign=featured-favicons
-Version: 1.0
+Version: 1.0.1
 Text Domain: featured-favicons
 
 # The code in this plugin is free software; you can redistribute the code aspects of
@@ -201,7 +201,7 @@ function ff_options_page() {
 	wp_enqueue_media(); ?>
 	<div class="wrap">
 		<?php screen_icon(); ?>
-		<h2><?php _e('Favicons Options', 'featured-favicons'); ?></h2>
+		<h1><?php _e('Favicons Options', 'featured-favicons'); ?></h1>
 		<form method="POST" action="options.php"><?php
 			settings_fields('featured-favicons');
 			do_settings_sections('featured-favicons');
